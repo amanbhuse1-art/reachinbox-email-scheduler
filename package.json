@@ -1,0 +1,26 @@
+{
+  "name": "reachinbox-email-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Production-grade full-stack email scheduler for the ReachInbox hiring assignment",
+  "packageManager": "pnpm@12.6.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter './apps/*' dev",
+    "build": "pnpm --recursive build",
+    "typecheck": "pnpm --recursive typecheck",
+    "lint": "pnpm --recursive lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "dotenv": "^18.0.4",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "prettier": "^3.6.0",
+    "prisma": "7.10.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.70.1"
+  }
+}
